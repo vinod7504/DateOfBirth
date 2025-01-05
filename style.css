@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(38, 192, 177);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.frame{
+    background-color: white;
+    height: 300px;
+    width: 700px;
+    box-shadow: 5px 5px 20px rgb(74, 69, 69);
+    padding: 20px;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 25px;
+}
+#date{
+    border-radius: 2px;
+    height: 20px;
+}
+.btn{
+    background-color: rgb(196, 56, 143);
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    width: 200px;
+}
+.difference{
+    font-size: 25px;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-top: 40px;
+    padding: 10px;
+}
